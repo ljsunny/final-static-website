@@ -6,36 +6,155 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
-    <title>Document</title>
+    <link rel="icon" href="./img/logo.png">
+    <script src="https://kit.fontawesome.com/e3de8e3097.js" crossorigin="anonymous"></script>
+    <title>Design Studio</title>
 </head>
 
 <body>
     <nav>
-        <img src="./img/logo.svg.png">
+        <img src="./img/logo.png">
         <ul>
             <li><a>Home</a></li>
             <li><a>About</a></li>
             <li><a>Contact</a></li>
             <li><a>Careers</a></li>
         </ul>
-        <button>menu</button>
+        <button>menu<i class="fa-solid fa-bars" style="margin-left:5px"></i></button>
     </nav>
     <header>
         <div id="header_container">
-            <div class="title"><h1>Design Studio<br> for the <br>web3 world</h1></div>
-            <img src="./img/hand-picture.png">  
+            <div class="title">
+                <h1>Design Studio<br> for the <br>web3 world</h1>
+            </div>
+            <img src="./img/hand-picture.png">
         </div>
     </header>
     <section id="sponsor">
-
+        <div class="container">
+            <p>Our client are backed by:</p>
+            <img src="./img/s-logo4.svg">
+            <img src="./img/s-logo2.svg">
+            <img src="./img/s-logo1.svg">
+            <img src="./img/s-logo3.svg">
+        </div>
     </section>
-    <section id="about">
-        
+    <section id="info">
+        <img class="bg_img" src="./img/bg_img.png">
+        <div class="container">
+            <div class="section1">
+                <h3>What is Web3 studio?</h3>
+                <p>Things around crypto, NFTs and web3 as a whole are unbelievably interesting. Unfortunately, the
+                    overall usability as well as the quality of the UI is often still not up to the task. To achieve
+                    mass adoption, overcoming those hurdles will be key. And this is where our story begins.</p>
+            </div>
+            <div class="section2">
+                <img src="./img/graphic1.svg">
+                <p>Passion in the new wave of crypto</p>
+                <p>High-quality design craft</p>
+            </div>
+        </div>
     </section>
     <section id="project">
-        
+        <h1>Project</h1>
+        <div class="grid">
+            <div>
+                <div><img src="./img/casestudy-01.png"></div>
+                <div><img src="./img/casestudy-03.png"></div>
+                <div class="box">
+                    <p>How we design web3 product</p>
+                    <button>Coming soon</button>
+                </div>
+            </div>
+            <div>
+                <div><img src="./img/casestudy-02.png"></div>
+                <div><img src="./img/casestudy-04.png"></div>
+            </div>
+        </div>
     </section>
-    <footer></footer>
+    <section id="other-project">
+        <h1>Other project</h1>
+        <div class="slide">
+            <div class="img_wrap"><img src="./img/other01.png"></div>
+            <div class="img_wrap"><img src="./img/other03.png"></div>
+            <div class="img_wrap"><img src="./img/other04.png"></div>
+        </div>
+        <div class="control">
+            <div class="left">
+                <span
+                    class="active"></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div class="right">
+                <i class="fa-solid fa-angle-left fa-lg" style="color:white"></i>
+                <i class="fa-solid fa-angle-right fa-lg" style="color:white"></i>
+            </div>
+        </div>
+    </section>
+    <section id="help">
+        <img class="bg_img" src="./img/bg_img.png">
+        <img src="./img/graphic2.svg">
+        <div class="help-wrap">
+            <h1>How we can help grow</h1>
+            <div class="help-grid">
+                <div class="left">
+                    <p>Product Clarity</p>
+                    <p>UX/UI design</p>
+                    <p>Maintain process</p>
+                </div>
+                <div class="right">
+                    <img src="./img/help01.jpg" style="width:317px; height:225px">
+                    <div>
+                        <h3>Are you at the idea stage? We will help you identify the critical MVP product scope.</h3>
+                        <p>product goal&vision</p>
+                        <p>brand voice</p>
+                        <p>product positioning</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div>
+            <img src="./img/about01.jpg">
+            <div>
+                <h2>About</h2>
+                <p>Team of product and brand designers that are really passionate about blockchain technology and good
+                    design. We are not just UI freaks! We advocate users for better product experience and common sense.
+                </p>
+                <p>More about us <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+        </div>
+        <img src="./img/about02.jpg">
+        <img src="./img/about03.jpg">
+    </section>
+    <footer>
+        <div class="left">
+            <h2>Web3 product studio</h2>
+            <p>Feel free to reach out if you want to collaborate
+                with us, or simply have a chat.</p>
+            <p>hello@thirdweb.studio <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+        <div class="right">
+            <div>
+                <h3>Our projects</h3>
+                <p>WingRiders</p>
+                <p>Trackee</p>
+                <p>Worldcoin</p>
+                <p>Audience+</p>
+            </div>
+            <div>
+                <h3>Follow us</h3>
+                <p>Facebook</p>
+                <p>Instagram</p>
+                <p>Dribbble</p>
+                <p>Linkedin</p>
+            </div>
+        </div>
+        <div class="circle w1"></div>
+        <div class="circle w2"></div>
+        <div class="circle w3"></div>
+        <div id="scroll-top"><a href="#top"><i class="fa-solid fa-arrow-up"></i></div>
+    </footer>
 </body>
 
 </html>
