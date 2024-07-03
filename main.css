@@ -25,6 +25,9 @@ h1 {
 div{
     flex-wrap: wrap;
 }
+a {
+    cursor:pointer
+}
 nav {
     display: flex;
     position: sticky;
@@ -107,6 +110,7 @@ header {
     line-height: 1.2;
 }
 section {
+    display:block;
     padding: 0 40px;
 }
 /* sponsor */
@@ -192,10 +196,7 @@ section {
     align-items: flex-start;
     gap:15px
 }
-/* .grid div {
-    display: inline-block;
-    vertical-align: top;
-} */
+
 .box {
     width:668px;
     height: 175px;
@@ -296,20 +297,102 @@ section {
     left:-70%;
 }
 #about {
+    position: relative;
+    display: flex;
+    width: 100%;
     height: 808px;
+    justify-content: center;
+}
+#about .about-textwrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-left: 100px;
+}
+#about .about-textwrap h2 {
+    font-size: 115px;
+}
+#about .about-textwrap p {
+    font-size: 26px;
+    color:rgba(255,255,255,0.6);
+    line-height: 1.5;
+}
+#about .about-textwrap a {
+    color:white;
+    font-size: 26px;
+    margin-top: 20px;
+}
+#about .img-box1 {
+    position: absolute;
+    top:30%;
+    right: 10%;
+    width:230px;
+    height: 340px;
+    background-image: url("./img/about03.jpg");
+    background-position: center;
+}
+#about .img-box2 {
+    position: absolute;
+    bottom:20%;
+    left:50%;
+    transform: translate(-50%,0);
+    width: 288px;
+    height: 190px;
+    background-image: url("./img/about02.jpg");
+    background-position: center;
+}
+#about .img-box3 {
+    position: absolute;
+    top:0%;
+    left:10%;
+    width: 230px;
+    height: 340px;
+    background-image: url("./img/about01.jpg");
+    background-position: center;
 }
 /* footer */
 footer{
     display: flex;
     position: relative;
     align-items: center;
-    justify-content: center;
-    gap: 100px;
+    justify-content: space-evenly;
+    gap: 115px;
     height: 554px;
     overflow: hidden;
 }
+footer .left {
+    width: 500px;
+}
+footer .left h2 {
+    font-size: 47px;
+    margin-bottom: 20px;
+}
+footer .left p {
+    color:rgba(255,255,255,0.6);
+    font-size: 19px;
+    margin-bottom: 100px;
+}
+footer .left a {
+    font-size: 26px;
+}
 footer .right {
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap:100px
+}
+footer .right h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+footer .right a{
+    font-size: 20px;
+    color:rgba(255,255,255,0.6);
 }
 .circle {
     position: absolute;
