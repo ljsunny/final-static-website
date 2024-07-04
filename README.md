@@ -36,7 +36,7 @@ To set up the project locally, follow these steps:
    cd your-repo-name
 3.Open index.html in your preferred browser to view the website:
   ```sh
-  open index.html
+   open index.html
   ```
 ## Usage
 After setting up the project, you can view and interact with the website by opening index.html in your web browser. The design is responsive and should adjust to different screen sizes, including mobile devices.
