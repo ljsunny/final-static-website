@@ -1,4 +1,4 @@
-# Project Title
+# Design Studio - final static website project
 
 This project is a web application created by replicating the design from the [Thirdweb Studio](https://thirdweb.studio/index.html) website and a Figma design from the [Top 16 Websites of 2024 Awwwards](https://www.figma.com/community/file/1186347039232004456/top-16-websites-of-2024-awwwards). The aim is to implement a functional and visually appealing website based on these designs.
 
