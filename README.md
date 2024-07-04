@@ -2,6 +2,9 @@
 
 This project is a web application created by replicating the design from the [Thirdweb Studio](https://thirdweb.studio/index.html) website and a Figma design from the [Top 16 Websites of 2024 Awwwards](https://www.figma.com/community/file/1186347039232004456/top-16-websites-of-2024-awwwards). The aim is to implement a functional and visually appealing website based on these designs.
 
+## Authors
+- [@ljsunny](https://github.com/ljsunny)
+  
 ## Table of Contents
 
 - [Overview](#overview)
@@ -17,10 +20,8 @@ This project is a web application created by replicating the design from the [Th
 This project involves building a website using HTML, CSS, and JavaScript, inspired by the Thirdweb Studio and a custom Figma design from the "Top 16 Websites of 2024 Awwwards". The objective was to create a user-friendly interface and ensure the design elements are faithfully reproduced in the code.
 
 ## Features
-
-- Responsive design compatible with various devices and screen sizes.
+- Static website project
 - Modern UI/UX design based on the Thirdweb Studio and Figma prototype.
-- Interactive elements and animations for enhanced user experience.
 - Easy navigation and accessibility features.
 
 ## Installation
@@ -50,8 +51,6 @@ Make your changes.
 Commit your changes (git commit -m 'Add some feature').
 Push to the branch (git push origin feature/YourFeature).
 Open a Pull Request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgements
 Thirdweb Studio for the original design inspiration.
