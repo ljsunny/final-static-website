@@ -40,19 +40,19 @@ To set up the project locally, follow these steps:
    open index.html
    ```
 ## Usage
-After setting up the project, you can view and interact with the website by opening index.html in your web browser. The design is responsive and should adjust to different screen sizes, including mobile devices.
+After setting up the project, you can view and interact with the website by opening index.html in your web browser. 
 
 ## Contributing
 Contributions are welcome! If you would like to contribute, please follow these steps:
 
 ## Fork the repository.
-1.Create a new branch (git checkout -b feature/YourFeature).
-2.Make your changes.
-3.Commit your changes (git commit -m 'Add some feature').
-4.Push to the branch (git push origin feature/YourFeature).
+1.Create a new branch (git checkout -b feature/YourFeature).<br/>
+2.Make your changes.<br/>
+3.Commit your changes (git commit -m 'Add some feature').<br/>
+4.Push to the branch (git push origin feature/YourFeature).<br/>
 5.Open a Pull Request.
 
 ## Acknowledgements
-∙ Thirdweb Studio for the original design inspiration.
-∙ The Figma design from Top 16 Websites of 2024 Awwwards for additional layout and style references.
+∙ Thirdweb Studio for the original design inspiration.<br/>
+∙ The Figma design from Top 16 Websites of 2024 Awwwards for additional layout and style references.<br/>
 ∙ OpenAI for the assistance in generating this README.
