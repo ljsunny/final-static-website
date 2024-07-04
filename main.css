@@ -639,12 +639,13 @@ footer .right a {
     text-align: left;
 }
 
-#about .sub div h2 {
+#about .subtitle {
     font-size: 100px;
     font-weight: 400;
     margin-bottom: 20px;
 }
-#about .sub div p {
+#about .sub div p,
+#about .subcontent {
     font-size: 22px;
     line-height: 1.5;
     font-weight: 200;
